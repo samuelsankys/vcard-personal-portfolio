@@ -749,8 +749,8 @@ main {
 }
 
 .clients-item img {
-  width: 100%;
-  filter: grayscale(1);
+  width: 5rem;
+  /* filter: grayscale(1); */
   transition: var(--transition-1);
 }
 
@@ -1474,7 +1474,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* clients */
 
   .clients-list {
-    gap: 50px;
+    gap: 10px;
     margin: 0 -30px;
     padding: 45px;
     scroll-padding-inline: 45px;
@@ -1500,7 +1500,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .skills-item:not(:last-child) { margin-bottom: 25px; }
 
+  .language { margin-top: 40px }
 
+  .know { margin-top: 40px }
 
   /**
    * #PORTFOLIO, BLOG
