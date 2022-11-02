@@ -35,7 +35,7 @@
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(45, 100%, 71%) 0%, 
+    hsl(189, 100%, 71%) 0%, 
     hsla(36, 100%, 69%, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
@@ -50,8 +50,9 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    hsl(189, 100%, 72%), 
+    hsl(189, 100%, 68%)
+    
   );
 
   /* solid */
@@ -63,10 +64,11 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
+  --orange-yellow-crayola: hsl(189, 100%, 72%);
+  --vegas-gold: hsl(189, 54%, 58%);
   --light-gray: hsl(0, 0%, 84%);
-  --light-gray-70: hsla(0, 0%, 84%, 0.7);
+  --light-gray-70: hsla(0, 0%, 51%, 0.7);
+  --light-gray-40: hsl(180, 58%, 25%);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
   /**
@@ -829,7 +831,31 @@ main {
   line-height: 1.6;
 }
 
+/**
+ * Experience 
+ */
 
+ .timeline-list span.tech{
+
+  color: var(--light-gray-40);
+  font-weight: var(--fw-400);
+  margin-top: .7rem;
+  line-height: 1.6;
+}
+
+.timeline-list span.locality{
+  color: var(--light-gray-70);
+  font-weight: var(--fw-400);
+  font-size: var(--fs-8);
+  line-height: 1.4;
+}
+
+.timeline-list span.list{
+  color: var(--light-gray-70);
+  font-weight: var(--fw-400);
+  font-size: var(--fs-8);
+  line-height: 1.4;
+}
 /**
  * skills 
  */
